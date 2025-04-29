@@ -1,0 +1,107 @@
+/* bookingForm.css */
+
+/* Overall page background (optional) */
+body {
+    background-color: #f7f7f7; /* light gray background similar to your screenshot */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container for the entire booking section */
+  .booking-container {
+    max-width: 550px;           /* Controls the width of the form */
+    margin: 2rem auto;          /* Centers the form on the page with space on top/bottom */
+    padding: 2rem;              /* Space within the container */
+    background-color: #fff;     /* White background */
+    border-radius: 8px;         /* Slight rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); /* Soft shadow */
+    border: 1px solid #7dbd2f;  /* Thin green border */
+  }
+  
+  /* Form heading styling */
+  .booking-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;                /* Darker heading text */
+    font-weight: bold;
+  }
+  
+  /* Booking title (if used separately) */
+  .booking-title {
+    text-align: center;
+    color: #67a546;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Form layout */
+  .booking-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;  /* Spacing between form fields */
+  }
+  
+  /* Form group styling */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form labels */
+  .booking-container label {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    color: #555;  /* Subtle text color */
+  }
+  
+  /* Text inputs (name, email, date) styling */
+  .booking-container input[type="text"],
+  .booking-container input[type="email"],
+  .booking-container input[type="date"] {
+    width: 100%;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  /* Select dropdown styling (full width like text inputs) */
+  .booking-container select {
+    width: 100%;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  /* Submit Button styling */
+  .booking-container button[type="submit"] {
+    align-self: flex-start;  /* Left-align the button; adjust to center if desired */
+    background-color: #67a546;  /* Green color matching your brand */
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .booking-container button[type="submit"]:hover {
+    background-color: #5a973d;  /* Slightly darker green on hover */
+  }
+  
+  /* Success/error message styling */
+  .booking-container p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
